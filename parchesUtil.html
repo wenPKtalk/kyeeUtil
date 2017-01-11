@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="div_top">
+    <div class="div_top_1"></div>
+</div>
+<div class="div_content">
+    <div class="div_center">
+        <div class="config_head">
+            <span>服务地址：</span>
+            <input id="ip_ports" class="input_out" name="" type="text"/>
+            <select class="parches_select" id="select_k1">
+                <option value="createInstance">购买</option>
+                <option value="renewInstance">续费</option>
+                <option value="releaseInstance">退费</option>
+            </select>
+            </div>
+        <ul class="input_test">
+            <li id="li1">
+                <label for="inp_accountQuantity">accountQuantity：</label>
+                <input id="inp_accountQuantity" class="input_out" name="" type="text" value="1"/>
+            </li>
+            <li id="li2">
+                <label for="inp_aliUid">aliUid：</label>
+                <select name="select" id="inp_aliUid" class="products_select">
+                    <option value="云HIS">云HIS</option>
+                    <option value="云HCRM">云HCRM</option>
+                    <option value="云HRP">云HRP</option>
+                    <option value="云LIS">云LIS</option>
+                    <option value="云PACS">云PACS</option>
+                    <option value="供应链">供应链</option>
+                    <option value="掌上HRP">掌上HRP</option>
+                    <option value="云培训考核平台">云培训考核平台</option>
+                </select>
+            </li>
+            <li id="li3">
+                <label for="inp_corpId">corpId：</label>
+                <input id="inp_corpId" class="input_out" name="" type="text"/>
+            </li>
+            <li id="li4">
+                <label for="inp_email">email：</label>
+                <input id="inp_email" class="input_out" name="" type="text" value="test_purchase@163.com"/>
+            </li>
+            <li id="li5">
+                <label for="inp_mobile">mobile：</label>
+                <input id="inp_mobile" class="input_out" name="" type="text" value="15411111111" />
+            </li>
+            <li id="li6">
+                <label for="inp_orderBizId">orderBizId：</label>
+                <input id="inp_orderBizId" class="input_out" name="" type="text"value="116"  />
+            </li>
+            <li id="li7">
+                <label for="inp_orderId">orderId：</label>
+                <input id="inp_orderId" class="input_out" name="" type="text" value="116" />
+            </li>
+            <li id="li8">
+                <label for="inp_skuId">skuId：</label>
+                <input id="inp_skuId" class="input_out" name="" type="text"  value="yuncode776500000"/>
+            </li>
+            <li id="li9">
+                <label for="inp_template">template：</label>
+                <input id="inp_template" class="input_out" name="" type="text"value="AAAA"  />
+            </li>
+            <li id="li10">
+                <label for="inp_expiredOn">expiredOn：</label>
+                <input id="inp_expiredOn" class="input_out" name="" type="text"value="2019-12-13" />
+            </li>
+            <li id="li11" style="display: none">
+                <label for="inp_instanceId">instanceId：</label>
+                <input id="inp_instanceId" class="input_out" name="" type="text" />
+            </li>
+        </ul>
+    </div>
+</div>
+<iframe></iframe>
+<script src="lib/md5.js/md5.js"></script>
+<script src="lib/jquery-3.1.1.min.js"></script>
+<script src="parchesUtil.js"></script>
+</body>
+</html>
